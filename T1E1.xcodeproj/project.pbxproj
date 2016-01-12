@@ -13,6 +13,7 @@
 		E067BC1C1C45163300FCEF29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E067BC1B1C45163300FCEF29 /* Assets.xcassets */; };
 		E067BC1F1C45163300FCEF29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E067BC1D1C45163300FCEF29 /* LaunchScreen.storyboard */; };
 		E067BC2A1C45163300FCEF29 /* T1E1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E067BC291C45163300FCEF29 /* T1E1UITests.swift */; };
+		E067BC351C45170200FCEF29 /* NewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E067BC341C45170200FCEF29 /* NewControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E067BC251C45163300FCEF29 /* T1E1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T1E1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E067BC291C45163300FCEF29 /* T1E1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T1E1UITests.swift; sourceTree = "<group>"; };
 		E067BC2B1C45163300FCEF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E067BC341C45170200FCEF29 /* NewControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				E067BC141C45163300FCEF29 /* AppDelegate.swift */,
 				E067BC161C45163300FCEF29 /* ViewController.swift */,
+				E067BC341C45170200FCEF29 /* NewControllerViewController.swift */,
 				E067BC181C45163300FCEF29 /* Main.storyboard */,
 				E067BC1B1C45163300FCEF29 /* Assets.xcassets */,
 				E067BC1D1C45163300FCEF29 /* LaunchScreen.storyboard */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E067BC171C45163300FCEF29 /* ViewController.swift in Sources */,
+				E067BC351C45170200FCEF29 /* NewControllerViewController.swift in Sources */,
 				E067BC151C45163300FCEF29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
